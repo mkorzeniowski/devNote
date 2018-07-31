@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  background: #353637; }
+
+.page-content {
+  width: 80%;
+  margin: 0 auto; }
+
+#welcomeSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px; }
+
+.text-wrapper {
+  width: 60%; }
+  .text-wrapper h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 10em;
+    color: #d3d3d3; }
+
+h2 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 6em;
+  color: #d3d3d3; }
+
+p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 2em;
+  color: #d3d3d3;
+  text-indent: 1em;
+  padding: 5px; }
+
+.project-section-wrapper {
+  padding: 20px; }
+
+.project-box {
+  height: 200px;
+  width: 300px; }
